@@ -1,12 +1,12 @@
 :root {
-    --bg: #0b1f26;
-    --bg-light: #12333d;
-    --card: #163d48;
-    --text: #f1f4f5;
-    --muted: #b5c2c7;
-    --accent: #5f9aaa;
-    --accent-light: #8db8c3;
-    --border: rgba(255, 255, 255, 0.10);
+    --bg: #100c18;
+    --bg-light: #181225;
+    --card: #211832;
+    --text: #f4f1f7;
+    --muted: #b8adbf;
+    --accent: #9a7bb8;
+    --accent-light: #c3add6;
+    --border: rgba(210, 190, 225, 0.12);
 }
 
 * {
@@ -32,8 +32,8 @@ a {
 }
 
 .container {
-  width: min(var(--max-width), calc(100% - 48px));
-  margin: 0 auto;
+    width: min(1100px, 86%);
+    margin: 0 auto;
 }
 
 /* HEADER */
@@ -230,7 +230,7 @@ a {
 /* SECTIONS */
 
 .section {
-  padding: 110px 0;
+  padding: 65px 0;
 }
 
 .section-alt {
